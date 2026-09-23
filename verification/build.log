@@ -1,0 +1,36 @@
+⚠ [2388/2472] Replayed WRC.WeightedCount
+warning: <workspace>/WRC\WeightedCount.lean:31:55: unused variable `hd`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: <workspace>/WRC\WeightedCount.lean:177:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: <workspace>/WRC\WeightedCount.lean:186:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2391/2472] Replayed WRC.CombinatorialIdentities
+warning: <workspace>/WRC\CombinatorialIdentities.lean:82:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2392/2472] Replayed WRC.ScaleCount
+warning: <workspace>/WRC\ScaleCount.lean:23:25: unused variable `hr`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: <workspace>/WRC\ScaleCount.lean:27:5: unused variable `hαpos`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: <workspace>/WRC\ScaleCount.lean:188:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2394/2472] Replayed WRC.HalfCover
+warning: <workspace>/WRC\HalfCover.lean:148:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: <workspace>/WRC\HalfCover.lean:160:70: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2395/2472] Replayed WRC.DyadicFiniteBridge
+warning: <workspace>/WRC\DyadicFiniteBridge.lean:56:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2399/2472] Replayed WRC.ScaleBudget
+warning: <workspace>/WRC\ScaleBudget.lean:54:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: <workspace>/WRC\ScaleBudget.lean:81:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: <workspace>/WRC\ScaleBudget.lean:88:13: unused variable `hM`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2878/3673] Replayed WRC.NumericRealBridge
+warning: <workspace>/WRC\NumericRealBridge.lean:95:5: unused variable `hα`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully.

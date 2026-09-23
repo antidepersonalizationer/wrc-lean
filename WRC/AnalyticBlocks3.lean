@@ -1,0 +1,84 @@
+import WRC.AnalyticCertificate
+
+namespace WRC
+namespace AnalyticCertificate
+
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 100000
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_24 :
+    finiteScaleSum 266 10 = 13346437164677875536495769602419318956889642348041556423974777470701748020209368546265765828871662616179295049698255441709562163820368345465867502632034898072297346216007499232554489781288956109781486427322628047 / 423933417367029839989973877825070029958498726714233474568093412525249020872825151052951610293879242704047402198020551804639162838209969668979622163056216234611758467341966139397239480924394736377776561016379801600000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_25 :
+    finiteScaleSum 276 10 = 1489098773194125510093452878301407384623492852586398981859464745228509337702367955042905973470830081096454143335469601454614380720315809594013345266160101954581326927155245229523506280369653768840213343183408928751254077 / 67512448070574572252406515178859408444565219306083932123985804816308969191569169911557155259293798221141454837592223965857262187108776430509783898929666814778184373085207115775036092491122554267107134227729804026707968000000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_26 :
+    finiteScaleSum 286 10 = 3693452864298917688206054305715000246959080662312530299356114106760995786110315087867212047136385333934836340435601005717875122545167014707851154610652386093680786268849003349546763648278939523849222847623957535224415511364407 / 238922773024671459025220522453133430358443415471949895086586820039847728666688564443485725261946231451919224748767975450626762873495481696094016670413750796158366918023655211129369329304903216688253190032419023581494003105792000000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_27 :
+    finiteScaleSum 296 10 = 7445121825321895407827915290839013780242643052682653011750394352959023527548023812508453308696781524152978926721690418788465033386406605914267769756405710619407990432585733299684675402687175259510738936288451835465853400808397773398103 / 693443829317656165612597082374229652073794367006466180135380507190868469188491331591703196024471372808407202309242888964541303402514089509158367577928248726111293021014203591654349022468107307035426617010961330510084803267489553186816000000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_28 :
+    finiteScaleSum 306 10 = 7980386155776730552857362984723284850074349193615915631644417260336773033718424317687958732097202373073333043973616362536410952180484212766142601908596319463483614644099132211102729006237564535064012645083659159487578246625821048796000469583049 / 1060153435771521140746529324245059457749973401175775186137786382532514915891879987339018381351902785363936753449043107103691212441114947097044346395552001968224616028190758757080278892290769371694526111523255479051174431334334221303286572515328000000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_29 :
+    finiteScaleSum 316 10 = 5333257837414036529035647423623988652345972197417466628069352456623342374129662576966797270077224074513285766357902289975363061722877634736171974457725200340409373307325865822915341100118986742902651819120447690994095969030272139012535865089062120117 / 1012992382962812730217883077672499078364830904427662685889424618771190085956639799076643667975257627728687783299452010599010656412726455741638677000824303694427907797222769470880511836133747421302370514109010076274925450615494603348503312942594932080640000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_30 :
+    finiteScaleSum 326 10 = 372199794145910100190086738818615557900673605276685242398772734246569206880041522523827079676087038473918539472038003019235210368901984435892957941717468493753845554333909386802882070727034778459115795583864823675826995718974643740504708840481428450921627957 / 100825968254961046914230512793361316267071041444217664582094922695229108587505037793535758875847722409193935397587697080549207862596619774041374110187645254756754061199414469191255808483533055335004583906709278119856899891021901256165910546452712855795924992000000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+set_option maxHeartbeats 0 in
+set_option maxRecDepth 100000 in
+theorem finiteScaleSum_block_31 :
+    finiteScaleSum 336 10 = 557513643232812773549043295001260048183119331867915452583872910111965313715054119655456823448934863371269012595974886592593371743669525676282517329770767640057271899554441351623540028207718066416524677748199324781779086707167970649979611244528451146253954714304663 / 214090473240050920326500752720193562021272075815659263260090400461646929476659657081523967595476825280209453507008357034216281522053479181775045995402343629069931746614380383554547757538769042987689477313487215727959314036759566791460487279743329666845112384933068800000 := by
+  norm_num [finiteScaleSum, finiteFK, finiteDensity, finiteP, finiteC,
+    finiteAlpha, finiteR, finiteH, finiteHIndex, finiteHChunk0, finiteHChunk1, finiteHChunk2, finiteHChunk3, finiteHChunk4, finiteHChunk5, finiteHChunk6, finiteHChunk7, finiteHChunk8, finiteHChunk9, finiteHChunk10, finiteHChunk11, finiteHChunk12, finiteHChunk13, finiteHChunk14, finiteHChunk15, finiteHChunk16, finiteHChunk17, finiteHChunk18, finiteHChunk19, finiteHChunk20, finiteHChunk21, finiteHChunk22, finiteHChunk23,
+    endpointCountQ, binomialTailNumeratorQ, binomialPrefixData, delta,
+    logTwoUpper]
+
+end AnalyticCertificate
+end WRC
+
