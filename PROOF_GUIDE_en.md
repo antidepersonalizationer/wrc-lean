@@ -1,4 +1,9 @@
-# WRC: formal statement and proof map
+# Exact Collatz step-count formulas: proof map
+
+The displayed result is Luo's DOE theorem, including the total-step formula conjectured by Ruggiero: `D = ceil(O*log_2(6) + log_2(N))`. [DOE.lean](WRC/DOE.lean) derives all six identities from the closed residue bound. It uses standard-map counts and a first-hitting trajectory. See [REFERENCES.md](REFERENCES.md) for the attribution and notation crosswalk.
+
+The rest of this guide explains the underlying WRC proof, which supplies the strict error bound needed by the formulas.
+
 
 The authoritative completion test is the full run of `Check-WRC.ps1` and its
 `verification/report.json`, not the existence of this guide or of a source file.

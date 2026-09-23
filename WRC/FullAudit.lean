@@ -24,6 +24,11 @@ example : ∀ n k, WRC.FirstHit n k → WRC.rho n k < (1/2 : ℝ) :=
 example : ∀ n : ℕ, 0 < n → n ≤ 2^26 → ∃ k, WRC.FirstHit n k :=
   WRC.terminates_upto_two_pow_26
 
+-- The advertised count formula is an accepted consequence of the full proof.
+example : ∀ n t, WRC.CFirstHit n t →
+    (t : ℤ) = ⌈Real.logb 2 6 * WRC.oddCount n t + Real.logb 2 n⌉ :=
+  fun _ _ h => WRC.doe_total_from_odd h
+
 open Lean in
 run_cmd do
   let env ← getEnv
@@ -61,3 +66,6 @@ run_cmd do
 #check WRC.standard_wrc
 #check WRC.terminal_rho_lt_half
 #check WRC.finite_termination_and_residual
+#print axioms WRC.doe
+#check WRC.doe
+#check WRC.doe_total_from_odd

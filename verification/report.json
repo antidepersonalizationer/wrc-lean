@@ -1,5 +1,5 @@
 {
-  "checkedUtc": "2026-09-23T08:55:55.2655255Z",
+  "checkedUtc": "2026-09-23T10:53:50.3554277Z",
   "leanToolchain": "leanprover/lean4:v4.20.1",
   "leanCommit": "b02228b03f655c0cd051d82280ad5758359ec8ba",
   "mathlibCommit": "5c0c94b3f563ed756b48b9439788c53b0d56a897",
@@ -10,7 +10,7 @@
   "completeWRCProof": true,
   "acceptanceTheorem": "WRC.wrc : WRC.WRCStatement",
   "auditMode": "closed-WRC-and-all-imported-theorems",
-  "auditedTheoremCount": 38475,
+  "auditedTheoremCount": 38481,
   "permittedAxioms": [
     "propext",
     "Classical.choice",
@@ -19,7 +19,7 @@
   "sourceHashes": [
     {
       "file": "WRC.lean",
-      "sha256": "0ADD0DBD39F697A7419DFDD6258E5AE7717F2479C17690DAF5529AFFC6ADDF20"
+      "sha256": "E88E6C5AC7E0FC302710C42681C45F9C69333F5DAD577C3BD27894468CA993A7"
     },
     {
       "file": "WRC\\AnalyticAssembly.lean",
@@ -122,6 +122,10 @@
       "sha256": "0137D863D200316A967F391EF98BBF3CAFCFB531A19EE6FF02A0B1EF37BFA637"
     },
     {
+      "file": "WRC\\DOE.lean",
+      "sha256": "845ACD0C636CE0308EA18209F2D9AD61E2C6F1D3A0F3619D0EB9400C8A958116"
+    },
+    {
       "file": "WRC\\DyadicFiniteBridge.lean",
       "sha256": "F6F6BD700935439A4F9B72EED5CE271D2C0BCFCC07E62D35ADFE334191BA42EF"
     },
@@ -147,7 +151,7 @@
     },
     {
       "file": "WRC\\FullAudit.lean",
-      "sha256": "370613C4636F48952756097303A3BFC3F158B5E69ABFF05485321B5E524E9ADF"
+      "sha256": "62A4D5588302529AD56A50E7E5133B1A94A1F756DFA12D6C7F82159D422243E0"
     },
     {
       "file": "WRC\\HalfCover.lean",

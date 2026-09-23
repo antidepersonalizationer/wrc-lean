@@ -24,3 +24,4 @@ import WRC.ScaleBudget
 import WRC.AnalyticAssembly
 import WRC.MainTheorem
 import WRC.FiniteTermination
+import WRC.DOE

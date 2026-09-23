@@ -1,4 +1,9 @@
-# WRC 形式化证明：阅读与验收指南
+# 3x+1 步数与起点的精确等式：证明导读
+
+本项目展示的结论是 Luo 的 DOE 六式，其中 `D = ceil(O*log_2(6) + log_2(N))` 对应 Ruggiero 早先提出的公式猜想。[DOE.lean](WRC/DOE.lean) 从闭合的残差界证明全部六式，使用通常 Collatz 映射的步数和首次终止条件。来源与符号对应见 [REFERENCES.md](REFERENCES.md)。
+
+本指南其余部分解释作为基础的 WRC 证明：它提供精确取整所需的严格误差界。
+
 
 本指南解释各模块承担的证明义务。是否已经全部通过，须以
 `Check-WRC.ps1` 的完整模式结果和 `verification/report.json` 为准，

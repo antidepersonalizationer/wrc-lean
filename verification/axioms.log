@@ -2424,6 +2424,7 @@ AUDIT WRC.LightCertificates.node19136: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00525.0._proof_10: PASS
 AUDIT WRC.LightCertificates.node2178: PASS
 AUDIT WRC.LightCertificates.node16528: PASS
+AUDIT WRC.standardResidual_ge_one: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00267.0._proof_1: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00305.0._proof_6: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00303.0._proof_16: PASS
@@ -9769,6 +9770,7 @@ AUDIT WRC.LightCertificates.node2856: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00378.0._proof_5: PASS
 AUDIT WRC.LightCertificates.node15931: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00650.0._proof_8: PASS
+AUDIT WRC.logb_standardResidual_bounds: PASS
 AUDIT WRC.LightCertificates.node6589: PASS
 AUDIT WRC.LightCertificates.node22507: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00586.0._proof_6: PASS
@@ -16514,6 +16516,7 @@ AUDIT WRC.LightCertificates.node16274: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00459.0._proof_3: PASS
 AUDIT WRC.LightCertificates.node11792: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00566.0._proof_7: PASS
+AUDIT WRC.logb_standardResidual: PASS
 AUDIT WRC.LightCertificates.node6607: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00047.0._proof_16: PASS
 AUDIT WRC.LightCertificates.node2479: PASS
@@ -33982,6 +33985,7 @@ AUDIT WRC.LightCertificates.node15442: PASS
 AUDIT WRC.LightCertificates.node2273: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00426.0._proof_15: PASS
 AUDIT WRC.LightCertificates.node11822: PASS
+AUDIT WRC.doe: PASS
 AUDIT WRC.LightCertificates.node3991: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00553.0._proof_3: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00572.0._proof_7: PASS
@@ -34003,6 +34007,7 @@ AUDIT WRC.LightCertificates.node12150: PASS
 AUDIT _private.WRC.Certificates.LightHalfJoin00018.0._proof_3: PASS
 AUDIT WRC.LightCertificates.node19681: PASS
 AUDIT WRC.LightCertificates.node5220: PASS
+AUDIT WRC.doe_total_from_odd: PASS
 AUDIT WRC.LightCertificates.node487: PASS
 AUDIT WRC.LightCertificates.node10771: PASS
 AUDIT WRC.LightCertificates.node1695: PASS
@@ -37856,6 +37861,7 @@ AUDIT WRC.LightCertificates.node20455: PASS
 AUDIT WRC.LightCertificates.node6880: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00679.0._proof_12: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00425.0._proof_13: PASS
+AUDIT WRC.doe._proof_1: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00007.0._proof_6: PASS
 AUDIT WRC.LightCertificates.node15882: PASS
 AUDIT _private.WRC.Certificates.LightHalfLeaf00057.0._proof_7: PASS
@@ -38474,10 +38480,19 @@ AUDIT WRC.LightCertificates.node8393: PASS
 AUDIT WRC.LightCertificates.node3115: PASS
 AUDIT WRC.LightCertificates.node9534: PASS
 PROJECT AXIOM UNION: [propext, Quot.sound, Classical.choice]
-PASS: full WRC and 38475 theorem declarations audited.
+PASS: full WRC and 38481 theorem declarations audited.
 'WRC.wrc' depends on axioms: [propext, Classical.choice, Quot.sound]
 WRC.wrc : WRC.WRCStatement
 WRC.standard_wrc : WRC.StandardWRCStatement
 WRC.terminal_rho_lt_half {n k : ℕ} (h : WRC.FirstHit n k) : WRC.rho n k < 1 / 2
 WRC.finite_termination_and_residual (n : ℕ) (hn : 0 < n) (hsize : n ≤ 2 ^ 26) :
   ∃ k, WRC.FirstHit n k ∧ WRC.residual n k < 63 / 50
+'WRC.doe' depends on axioms: [propext, Classical.choice, Quot.sound]
+WRC.doe {n t : ℕ} (h : WRC.CFirstHit n t) :
+  ↑(WRC.oddCount n t) = ⌊Real.logb 6 2 * ↑t - Real.logb 6 ↑n⌋ ∧
+    ↑(WRC.evenCount n t) = ⌈Real.logb 6 3 * ↑t + Real.logb 6 ↑n⌉ ∧
+      ↑t = ⌈Real.logb 2 6 * ↑(WRC.oddCount n t) + Real.logb 2 ↑n⌉ ∧
+        ↑(WRC.evenCount n t) = ⌈Real.logb 2 3 * ↑(WRC.oddCount n t) + Real.logb 2 ↑n⌉ ∧
+          ↑t = ⌊Real.logb 3 6 * ↑(WRC.evenCount n t) - Real.logb 3 ↑n⌋ ∧
+            ↑(WRC.oddCount n t) = ⌊Real.logb 3 2 * ↑(WRC.evenCount n t) - Real.logb 3 ↑n⌋
+WRC.doe_total_from_odd {n t : ℕ} (h : WRC.CFirstHit n t) : ↑t = ⌈Real.logb 2 6 * ↑(WRC.oddCount n t) + Real.logb 2 ↑n⌉
