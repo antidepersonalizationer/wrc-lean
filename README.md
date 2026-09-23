@@ -13,11 +13,16 @@ This repository formalizes the strict bound **`Res < 2` for every positive Colla
 
 Use the short Collatz map
 
-$$T(n)=\begin{cases}n/2&n\text{ even},\\(3n+1)/2&n\text{ odd}.\end{cases}$$
+```text
+T(n) = n/2          if n is even
+       (3n+1)/2     if n is odd
+```
 
 Let $n>0$, let $k$ be the first index with $T^k(n)=1$, and let $s$ count the odd source states among the first $k$ steps. The theorem states
 
-$$\operatorname{Res}(n,k)=\frac{2^k}{3^s n}<2.$$
+```text
+Res(n,k) = 2^k / (3^s * n) < 2.
+```
 
 The first-hit condition is essential: the trajectory stops on its first visit to 1. Definitions are in [WRC/Core.lean](WRC/Core.lean); the final assembly is in [WRC/MainTheorem.lean](WRC/MainTheorem.lean):
 
@@ -89,7 +94,11 @@ A full run must exit successfully and leave `status: "full-pass"` and `completeW
 
 Start with the [English proof map](PROOF_GUIDE_en.md) or [中文证明导读](PROOF_GUIDE_zh.md). The proof separates a terminating trajectory at the threshold $B=2^{26}$ and combines
 
-$$\text{low residual}<63/50,\qquad \log(\text{high product})<23/50,\qquad (63/50)e^{23/50}<2.$$
+```text
+low residual < 63/50
+log(high product) < 23/50
+(63/50) * exp(23/50) < 2
+```
 
 Each ingredient and the final combination are formalized.
 

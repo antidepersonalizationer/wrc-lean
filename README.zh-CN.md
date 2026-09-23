@@ -13,7 +13,9 @@
 
 使用短 Collatz 映射：偶数 n 映到 n/2，奇数 n 映到 (3n+1)/2。设 n>0，轨道第 k 步首次到达 1，前 k 步中奇数出发状态共有 s 个，则
 
-$$\operatorname{Res}(n,k)=\frac{2^k}{3^s n}<2.$$
+```text
+Res(n,k) = 2^k / (3^s * n) < 2.
+```
 
 `FirstHit` 同时要求起点为正、第 k 步等于 1、此前各步不等于 1。主定理在 [MainTheorem.lean](WRC/MainTheorem.lean) 中：
 
